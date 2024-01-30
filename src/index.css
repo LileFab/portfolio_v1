@@ -1,0 +1,35 @@
+/* ./src/index.css */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* width */
+::-webkit-scrollbar {
+    width: 0px;
+}
+ 
+/* Track */
+::-webkit-scrollbar-track {
+    background: #fcfcf7;
+}
+ 
+/* Handle */
+::-webkit-scrollbar-thumb {
+    background: #fcfcf7;
+    border-radius: 0px;
+}
+ 
+/* Handle on hover */
+::-webkit-scrollbar-thumb:hover {
+    background: #fcfcf7;
+}
+
+@font-face {
+  font-family: "Roboto";
+  src: url("fonts/Roboto-Regular.ttf");
+}
+
+@font-face {
+  font-family: "Workbench";
+  src: url("fonts/Workbench-Regular.ttf");
+}
