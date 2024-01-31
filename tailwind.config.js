@@ -127,9 +127,10 @@ export default {
 			},
 		},
 		fontFamily: {
-			roboto: ["Roboto", "sans-serif"],
-			workbench: ["Workbench", "sans-serif"],
-			playfair: ["Playfair", "sans-serif"]
+			roboto: ['Roboto', 'sans-serif'],
+			workbench: ['Workbench', 'sans-serif'],
+			playfair: ['Playfair', 'sans-serif'],
+			playfairb: ['PlayfairB', 'sans-serif'],
 		},
 	},
 	plugins: [],

@@ -38,3 +38,8 @@
   font-family: "Playfair";
   src: url("public/fonts/PlayfairDisplay-Regular.ttf");
 }
+
+@font-face {
+  font-family: "PlayfairB";
+  src: url("public/fonts/PlayfairDisplay-Black.ttf");
+}
