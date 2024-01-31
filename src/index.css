@@ -26,20 +26,20 @@
 
 @font-face {
   font-family: "Roboto";
-  src: url("public/fonts/Roboto-Regular.ttf");
+  src: url("../public/fonts/Roboto-Regular.ttf");
 }
 
 @font-face {
   font-family: "Workbench";
-  src: url("public/fonts/Workbench-Regular.ttf");
+  src: url("../public/fonts/Workbench-Regular.ttf");
 }
 
 @font-face {
   font-family: "Playfair";
-  src: url("public/fonts/PlayfairDisplay-Regular.ttf");
+  src: url("../public/fonts/PlayfairDisplay-Regular.ttf");
 }
 
 @font-face {
   font-family: "PlayfairB";
-  src: url("public/fonts/PlayfairDisplay-Black.ttf");
+  src: url("../public/fonts/PlayfairDisplay-Black.ttf");
 }
