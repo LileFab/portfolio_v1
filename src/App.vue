@@ -1,12 +1,13 @@
 <script setup lang="ts">
 import { RouterView } from 'vue-router';
-import Header from './components/Header.vue';
 </script>
 
 <template>
-  <div class="bg-baby_powder h-screen mt-20 scroll-smooth font-roboto">
-    
-      <Header />
+  <div class="bg-baby_powder h-screen scroll-smooth font-roboto">
+    <header class="h-16 bg-reseda_green">
+    <i class="fa-solid fa-terminal text-4xl p-3"></i>
+    <a href="" class="font-bold text-3xl font-playfair"> Fabien Fleisch</a>
+    </header>
     <div id="main" class="p-20 pt-4">
       <RouterView />
     <i class="animate-spin text-indigo-500 fas fa-spinner fa-lg"></i>

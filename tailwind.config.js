@@ -128,7 +128,8 @@ export default {
 		},
 		fontFamily: {
 			roboto: ["Roboto", "sans-serif"],
-			workbench: ["Workbench", "sans-serif"]
+			workbench: ["Workbench", "sans-serif"],
+			playfair: ["Playfair", "sans-serif"]
 		},
 	},
 	plugins: [],
