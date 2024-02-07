@@ -1,12 +1,13 @@
 <template>
   <div class="bg-baby_powder h-screen scroll-smooth font-roboto">
 
-  <HeaderVue/>
-  <MainTitle/>
+    <HeaderVue/>
+    <MainTitle/>
 
-    <div id="corps" class="m-8 bg-baby_powder">
+    <div id="corps" class="p-8 bg-baby_powder">
       <AboutMe/>
-      <!-- <TechnicalStack/> -->
+      <TechnicalStack/>
+      <div class="h-40"></div>
     </div>
   </div>
 </template>
