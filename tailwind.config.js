@@ -4,7 +4,6 @@ export default {
 	theme: {
 		extend: {
 			colors: {
-				linkedin: '#0e76a8',
 				baby_powder: {
 					DEFAULT: '#fcfcf7',
 					100: '#48481b',
