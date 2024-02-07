@@ -7,7 +7,7 @@
     </div>
     <div>
       <img src="@\assets\svg\tasse.svg" alt="">
-      <a class="text-cambridge_blue font-bold"><i class="fa-solid fa-file pr-2 text-jet"></i>Télécharger mon CV</a>
+      <a @click="downloadCV()" class="text-cambridge_blue font-bold"><i class="fa-solid fa-file pr-2 text-jet"></i>Télécharger mon CV</a>
     </div>
   </div>
 </template>
