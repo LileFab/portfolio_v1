@@ -4,7 +4,7 @@
   <HeaderVue/>
   <MainTitle/>
 
-    <div id="corps" class="m-8 bg-baby_powder">
+    <div id="corps" class="p-8 bg-baby_powder">
       <AboutMe/>
       <!-- <TechnicalStack/> -->
     </div>
