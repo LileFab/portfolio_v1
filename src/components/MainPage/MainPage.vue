@@ -15,8 +15,8 @@
 
 
 <script lang="ts">
+import Footer from '../Footer.vue';
 import HeaderVue from '../Header.vue';
-import Footer from '../footer.vue';
 import AboutMe from "./components/AboutMe.vue";
 import Contact from './components/Contact.vue';
 import MainTitle from './components/MainTitle.vue';
