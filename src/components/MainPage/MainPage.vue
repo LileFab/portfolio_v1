@@ -6,15 +6,19 @@
 
     <div id="corps" class="p-8 bg-baby_powder">
       <AboutMe/>
-      <!-- <TechnicalStack/> -->
+      <TechnicalStack/>
+      <Contact/>
     </div>
+    <Footer/>
   </div>
 </template>
 
 
 <script lang="ts">
 import HeaderVue from '../Header.vue';
+import Footer from '../footer.vue';
 import AboutMe from "./components/AboutMe.vue";
+import Contact from './components/Contact.vue';
 import MainTitle from './components/MainTitle.vue';
 import TechnicalStack from './components/TechnicalStack.vue';
   export default {
@@ -23,7 +27,9 @@ import TechnicalStack from './components/TechnicalStack.vue';
     MainTitle,
     AboutMe,
     TechnicalStack,
-    HeaderVue
+    HeaderVue,
+    Contact,
+    Footer
   },
 };
 </script>

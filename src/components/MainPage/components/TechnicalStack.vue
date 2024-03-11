@@ -1,8 +1,8 @@
 <template>
   <h2 class="font-bold text-4xl text-center font-playfairb text-brown_sugar mt-28">Technical Stack</h2>
   <div class="grid grid-cols-5 gap-6 text-center mt-10 bg-baby_powder">
-    <div>mettre un truc un jour</div>
-    <div class="col-span-3 shadow-lg shadow-cinereous" id="contenu">
+    <div><img src="@\assets\svg\undraw_programmer_re_owql.svg" alt=""></div>
+    <div class="col-span-3 shadow-lg shadow-cinereous text-left pt-6 pl-4" id="contenu">
       <FrontEnd v-if="activeComponent === 'frontend' || activeComponent ===''"/>
       <BackEnd v-if="activeComponent === 'backend'"/>
       <DataBase v-if="activeComponent === 'database'"/>

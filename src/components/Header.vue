@@ -1,5 +1,5 @@
 <template>
-  <header class="h-16 bg-gradient-to-r from-cambridge_blue to-jet opacity-95 top-0 fixed w-screen flex items-center justify-between">
+  <header class="h-16 bg-gradient-to-r from-cambridge_blue to-jet opacity-95 top-0 fixed w-screen flex items-center justify-between z-50">
     <a href="" class="flex items-center font-bold text-3xl font-playfair opacity-90">
       <i class="fa-solid fa-otter text-4xl p-3 animate-waving-hand cursor-pointer"></i>
       Fabien Fleisch
